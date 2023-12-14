@@ -6,8 +6,6 @@ export default function App() {
 
     const [isOpen, setIsOpen] = useState(false);
 
-    const handleClose = () => { setIsOpen(false); };
-
     return (
       <>
         <button className="buttonStyle" onClick={() => setIsOpen(true)}>Open TableFlow Importer</button>
